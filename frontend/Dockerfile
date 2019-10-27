@@ -12,5 +12,5 @@ RUN apk add yarn
 COPY package.json /app/package.json
 RUN yarn install
 
-# start app
+# start apt
 CMD ["yarn", "start"]

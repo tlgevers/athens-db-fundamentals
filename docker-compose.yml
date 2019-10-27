@@ -28,14 +28,14 @@ services:
       - adminer
     volumes:
       - ./backend:/app
-    networks:
-      - athens-db-network
+    # networks:
+    #   - athens-db-network
     environment:
       FLASK_APP: main:app
       FLASK_DEBUG: 1
       PYTHONBUFFERED: 1
       MYSQL_USER: root
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: local
       MYSQL_DATABASE: local
       PROJECT_ID: athens-db-fundamentals
       PORT: 5000

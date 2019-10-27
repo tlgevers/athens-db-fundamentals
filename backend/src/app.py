@@ -17,9 +17,16 @@ def create_app(config_object):
     app.logger.info(f"Config: {config_object.__name__}")
     app.logger.info("*********************************")
 
-    # register_extensions(app)
+    register_extensions(app)
     register_blueprints(app)
     return app
+
+def register_extensions(app):
+    from .mysql import db
+    db.init_app(app)
+    with app.app_context():
+        db.reflect()
+
 
 def register_blueprints(app):
     from .api.endpoints import blueprint

@@ -1,0 +1,11 @@
+clId,wid,jobNo,title,level,payRate,DesiredStartDate,DesiredEndDate,EducLevelDesired,EducFieldDesired,contactPerson,actualStartDate,actualEndDate,TerminationReason
+0224B75C,B1EA672A,46,Professional,Entry,$11.36,2018-11-14 14:32:07,2018-11-30 21:53:39,B.A.,AE,Kerry U. Page,11/22/2018,11/24/2018,theft
+5E49FAFF,37F4F59D,47,Temporary,Junior,$8.78,2018-11-19 17:40:08,2018-12-27 15:09:16,A.A.S.,MIS,Berk H. Jackson,11/25/2018,12/15/2018,harassment
+13F0B354,58BCD7C3,48,Temporary,Entry,$11.65,2018-10-23 18:13:35,2018-11-26 07:03:17,A.A.S.,MIS,Ariana L. Cobb,10/25/2018,10/31/2018,incompetence
+512BBFBA,B6979BBE,49,Professional,Entry,$9.42,2018-12-08 08:24:48,2018-12-22 00:12:51,B.S.,EE,Blaze U. Henderson,12/8/2018,12/22/2018,
+98E66AF0,87E8D390,50,Temporary,Entry,$11.51,2018-11-21 02:10:39,2018-11-23 12:40:06,B.S.,CS,Erich Wheeler,11/21/2018,11/23/2018,
+2B84ED7F,03DD7FB6,51,Temporary,Entry,$9.57,2018-10-22 02:11:49,2018-12-29 09:46:16,Certificate,AE,Lucius Merritt,11/10/2018,12/29/2018,
+A7C9A313,F3E19D5E,52,Temporary,Entry,$10.02,2018-11-21 17:51:29,2018-12-02 20:04:19,Certificate,CS,Aretha Kemp,11/22/2018,11/30/2018,attendance
+CE8DF959,F3D4D51E,53,Temporary,Junior,$11.17,2018-11-12 20:33:13,2018-12-29 23:50:55,Certificate,CS,Cheryl Dennis,11/24/2018,11/29/2018,insubordination
+8981F371,E4117DE9,62,Professional,Entry,$9.92,2018-10-28 10:01:02,2018-12-26 07:28:25,B.S.,MIS,Emmanuel Vazquez,11/7/2018,11/26/2018,insubordination
+D0260322,A492113E,75,Professional,Entry,$8.97,2018-12-07 12:18:01,2018-12-16 02:20:59,B.S.,EE,Tanya Burch,12/8/2018,12/16/2018,

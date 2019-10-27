@@ -1,0 +1,62 @@
+[
+    {
+        "clId": "0224B75C",
+        "billNo": 100568.0,
+        "billDate": "2018-11-26",
+        "amountBilled": 196.3
+    },
+    {
+        "clId": "5E49FAFF",
+        "billNo": 100569.0,
+        "billDate": "2018-12-18",
+        "amountBilled": 1517.18
+    },
+    {
+        "clId": "13F0B354",
+        "billNo": 100570.0,
+        "billDate": "2018-11-02",
+        "amountBilled": 603.94
+    },
+    {
+        "clId": "512BBFBA",
+        "billNo": 100571.0,
+        "billDate": "2018-12-25",
+        "amountBilled": 1058.06
+    },
+    {
+        "clId": "98E66AF0",
+        "billNo": 100572.0,
+        "billDate": "2018-11-25",
+        "amountBilled": 198.9
+    },
+    {
+        "clId": "2B84ED7F",
+        "billNo": 100573.0,
+        "billDate": "2018-01-03",
+        "amountBilled": 3968.88
+    },
+    {
+        "clId": "A7C9A313",
+        "billNo": 100574.0,
+        "billDate": "2018-12-03",
+        "amountBilled": 779.17
+    },
+    {
+        "clId": "CE8DF959",
+        "billNo": 100575.0,
+        "billDate": "2018-12-01",
+        "amountBilled": 482.54
+    },
+    {
+        "clId": "8981F371",
+        "billNo": 100576.0,
+        "billDate": "2018-11-29",
+        "amountBilled": 1628.48
+    },
+    {
+        "clId": "D0260322",
+        "billNo": 100577.0,
+        "billDate": "2018-12-18",
+        "amountBilled": 542.51
+    }
+]
