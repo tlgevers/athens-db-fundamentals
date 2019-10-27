@@ -1,9 +1,23 @@
 version: '3.1'
 
 services:
+  fe:
+    container_name: fe
+    image: athens-db-fundamentals-fe
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    command: yarn start
+    volumes:
+      - ./frontend/:/app
+    depends_on:
+      - be
+
   be:
     container_name: be
-    image: athens-db-fundamentals
+    image: athens-db-fundamentals-be
     build:
       context: ./backend/
       dockerfile: Dockerfile
@@ -31,23 +45,31 @@ services:
     image: mysql
     command: --default-authentication-plugin=mysql_native_password
     restart: always
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
     environment:
+      MYSQL_USER: local
+      MYSQL_ROOT_PASSWORD: local
       MYSQL_DATABASE: local
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_PASSWORD: local
     volumes:
       - local-db:/var/lib/mysql
-    networks:
-      - athens-db-network
+    # networks:
+    #   - athens-db-network
 
   adminer:
     image: adminer
     restart: always
     ports:
       - 8080:8080
+    depends_on:
+      - db
 
-networks:
-  athens-db-network:
-    driver: bridge
+# networks:
+#   athens-db-network:
+#     driver: bridge
 
 volumes:
   local-db:
