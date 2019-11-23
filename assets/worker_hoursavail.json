@@ -1,0 +1,122 @@
+[
+    {
+        "wid": "03DD7FB6",
+        "day": "Thursday",
+        "startTime": 11,
+        "endTime": 7
+    },
+    {
+        "wid": "03DD7FB6",
+        "day": "Friday",
+        "startTime": 8,
+        "endTime": 6
+    },
+    {
+        "wid": "37F4F59D",
+        "day": "Friday",
+        "startTime": 6,
+        "endTime": 8
+    },
+    {
+        "wid": "37F4F59D",
+        "day": "Sunday",
+        "startTime": 9,
+        "endTime": 9
+    },
+    {
+        "wid": "58BCD7C3",
+        "day": "Wednesday",
+        "startTime": 3,
+        "endTime": 4
+    },
+    {
+        "wid": "58BCD7C3",
+        "day": "Friday",
+        "startTime": 12,
+        "endTime": 2
+    },
+    {
+        "wid": "87E8D390",
+        "day": "Wednesday",
+        "startTime": 12,
+        "endTime": 8
+    },
+    {
+        "wid": "87E8D390",
+        "day": "Friday",
+        "startTime": 5,
+        "endTime": 8
+    },
+    {
+        "wid": "A492113E",
+        "day": "Saturday",
+        "startTime": 10,
+        "endTime": 10
+    },
+    {
+        "wid": "A492113E",
+        "day": "Wednesday",
+        "startTime": 10,
+        "endTime": 7
+    },
+    {
+        "wid": "B1EA672A",
+        "day": "Thursday",
+        "startTime": 1,
+        "endTime": 10
+    },
+    {
+        "wid": "B1EA672A",
+        "day": "8",
+        "startTime": 7,
+        "endTime": 4
+    },
+    {
+        "wid": "B6979BBE",
+        "day": "Thursday",
+        "startTime": 10,
+        "endTime": 5
+    },
+    {
+        "wid": "B6979BBE",
+        "day": "Saturday",
+        "startTime": 7,
+        "endTime": 3
+    },
+    {
+        "wid": "E4117DE9",
+        "day": "Wednesday",
+        "startTime": 5,
+        "endTime": 8
+    },
+    {
+        "wid": "E4117DE9",
+        "day": "Sunday",
+        "startTime": 7,
+        "endTime": 8
+    },
+    {
+        "wid": "F3D4D51E",
+        "day": "Friday",
+        "startTime": 11,
+        "endTime": 9
+    },
+    {
+        "wid": "F3D4D51E",
+        "day": "Thursday",
+        "startTime": 12,
+        "endTime": 7
+    },
+    {
+        "wid": "F3E19D5E",
+        "day": "Wednesday",
+        "startTime": 10,
+        "endTime": 4
+    },
+    {
+        "wid": "F3E19D5E",
+        "day": "Wednesday",
+        "startTime": 12,
+        "endTime": 9
+    }
+]

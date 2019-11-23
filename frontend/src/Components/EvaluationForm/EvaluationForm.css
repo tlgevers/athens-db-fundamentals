@@ -1,0 +1,15 @@
+label {
+    display: block;
+    /* margin-bottom: 5px;  */
+    text-align: left;
+}
+
+.EvalForm {
+    max-width: 300px;
+}
+
+.EvalFormContainer {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}

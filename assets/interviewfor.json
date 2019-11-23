@@ -1,0 +1,62 @@
+[
+    {
+        "jobNo": 46,
+        "wId": "B1EA672A",
+        "date": "2018-11-20",
+        "outcome": "hired"
+    },
+    {
+        "jobNo": 47,
+        "wId": "37F4F59D",
+        "date": "2018-11-23",
+        "outcome": "hired"
+    },
+    {
+        "jobNo": 48,
+        "wId": "58BCD7C3",
+        "date": "2018-10-22",
+        "outcome": "hired"
+    },
+    {
+        "jobNo": 50,
+        "wId": "B6979BBE",
+        "date": "2018-11-18",
+        "outcome": "not qualified"
+    },
+    {
+        "jobNo": 50,
+        "wId": "87E8D390",
+        "date": "2018-11-21",
+        "outcome": "hired"
+    },
+    {
+        "jobNo": 50,
+        "wId": "03DD7FB6",
+        "date": "2018-11-19",
+        "outcome": "not qualified"
+    },
+    {
+        "jobNo": 52,
+        "wId": "F3E19D5E",
+        "date": "2018-11-20",
+        "outcome": "hired"
+    },
+    {
+        "jobNo": 53,
+        "wId": "F3D4D51E",
+        "date": "2018-11-20",
+        "outcome": "hired"
+    },
+    {
+        "jobNo": 62,
+        "wId": "E4117DE9",
+        "date": "2018-11-04",
+        "outcome": "hired"
+    },
+    {
+        "jobNo": 75,
+        "wId": "A492113E",
+        "date": "2018-12-05",
+        "outcome": "hired"
+    }
+]

@@ -62,7 +62,7 @@ services:
       MYSQL_DATABASE: local
       MYSQL_PASSWORD: local
     volumes:
-      - local-db:/var/lib/mysql
+      - ./local-db:/var/lib/mysql
     # networks:
     #   - athens-db-network
 

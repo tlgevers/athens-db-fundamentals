@@ -1,72 +1,72 @@
 [
     {
-        "jobNo": 46.0,
+        "jobNo": 46,
         "chargeDate": "2018-11-27",
-        "daysWorked": 3196.3,
-        "amountCharged": 100568.0,
-        "billNo": null
+        "daysWorked": 3,
+        "amountCharged": 196.3,
+        "billNo": 100568
     },
     {
-        "jobNo": 47.0,
+        "jobNo": 47,
         "chargeDate": "2018-12-19",
-        "daysWorked": 201517.18,
-        "amountCharged": 100569.0,
-        "billNo": null
+        "daysWorked": 20,
+        "amountCharged": 1517.18,
+        "billNo": 100569
     },
     {
-        "jobNo": 48.0,
+        "jobNo": 48,
         "chargeDate": "2018-11-04",
-        "daysWorked": 6603.94,
-        "amountCharged": 100570.0,
-        "billNo": null
+        "daysWorked": 6,
+        "amountCharged": 603.94,
+        "billNo": 100570
     },
     {
-        "jobNo": 49.0,
+        "jobNo": 49,
         "chargeDate": "2018-12-27",
-        "daysWorked": 141058.06,
-        "amountCharged": 100571.0,
-        "billNo": null
+        "daysWorked": 14,
+        "amountCharged": 1058.06,
+        "billNo": 100571
     },
     {
-        "jobNo": 50.0,
+        "jobNo": 50,
         "chargeDate": "2018-11-27",
-        "daysWorked": 2198.9,
-        "amountCharged": 100572.0,
-        "billNo": null
+        "daysWorked": 2,
+        "amountCharged": 198.9,
+        "billNo": 100572
     },
     {
-        "jobNo": 51.0,
+        "jobNo": 51,
         "chargeDate": "2018-01-05",
-        "daysWorked": 493968.88,
-        "amountCharged": 100573.0,
-        "billNo": null
+        "daysWorked": 49,
+        "amountCharged": 3968.88,
+        "billNo": 100573
     },
     {
-        "jobNo": 52.0,
+        "jobNo": 52,
         "chargeDate": "2018-12-05",
-        "daysWorked": 8779.17,
-        "amountCharged": 100574.0,
-        "billNo": null
+        "daysWorked": 8,
+        "amountCharged": 779.17,
+        "billNo": 100574
     },
     {
-        "jobNo": 53.0,
+        "jobNo": 53,
         "chargeDate": "2018-12-03",
-        "daysWorked": 5482.54,
-        "amountCharged": 100575.0,
-        "billNo": null
+        "daysWorked": 5,
+        "amountCharged": 482.54,
+        "billNo": 100575
     },
     {
-        "jobNo": 62.0,
+        "jobNo": 62,
         "chargeDate": "2018-12-01",
-        "daysWorked": 191628.48,
-        "amountCharged": 100576.0,
-        "billNo": null
+        "daysWorked": 19,
+        "amountCharged": 1628.48,
+        "billNo": 100576
     },
     {
-        "jobNo": 75.0,
+        "jobNo": 75,
         "chargeDate": "2018-12-20",
-        "daysWorked": 8542.51,
-        "amountCharged": 100577.0,
-        "billNo": null
+        "daysWorked": 8,
+        "amountCharged": 542.51,
+        "billNo": 100577
     }
 ]

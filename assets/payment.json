@@ -1,0 +1,52 @@
+[
+    {
+        "billNo": 100568,
+        "payDate": "2018-11-28",
+        "payAmount": 196.3
+    },
+    {
+        "billNo": 100569,
+        "payDate": "2018-12-20",
+        "payAmount": 1517.18
+    },
+    {
+        "billNo": 100570,
+        "payDate": "2018-11-05",
+        "payAmount": 603.94
+    },
+    {
+        "billNo": 100571,
+        "payDate": "2018-12-29",
+        "payAmount": 1058.06
+    },
+    {
+        "billNo": 100572,
+        "payDate": "2018-11-29",
+        "payAmount": 198.9
+    },
+    {
+        "billNo": 100573,
+        "payDate": "2018-01-06",
+        "payAmount": 3968.88
+    },
+    {
+        "billNo": 100574,
+        "payDate": "2018-12-07",
+        "payAmount": 779.17
+    },
+    {
+        "billNo": 100575,
+        "payDate": "2018-12-05",
+        "payAmount": 482.54
+    },
+    {
+        "billNo": 100576,
+        "payDate": "2018-12-03",
+        "payAmount": 1628.48
+    },
+    {
+        "billNo": 100577,
+        "payDate": "2018-12-22",
+        "payAmount": 542.51
+    }
+]

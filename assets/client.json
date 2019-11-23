@@ -1,0 +1,122 @@
+[
+    {
+        "clId": "0224B75C",
+        "clFname": "Sasha",
+        "clMinit": "Uma",
+        "clLName": "Leon",
+        "clStreet1": "Ap #997-9848 Purus Road",
+        "clStreet2": "Ap #309-5442 Mauris St.",
+        "clCity": "Regina",
+        "clZip": 10515,
+        "clPhone": "813-189-8143",
+        "contactPerson": "Cheryl Pugh"
+    },
+    {
+        "clId": "5E49FAFF",
+        "clFname": "Madeline",
+        "clMinit": "Fallon",
+        "clLName": "Cherry",
+        "clStreet1": "839-2141 Massa. Road",
+        "clStreet2": "P.O. Box 549|1031 Tortor Road",
+        "clCity": "Ellikom",
+        "clZip": 11980,
+        "clPhone": "222-864-2598",
+        "contactPerson": "Yasir W. Klein"
+    },
+    {
+        "clId": "13F0B354",
+        "clFname": "Kai",
+        "clMinit": "Sacha",
+        "clLName": "Pate",
+        "clStreet1": "P.O. Box 572|4718 Blandit. Avenue",
+        "clStreet2": "990-1053 Etiam St.",
+        "clCity": "Geertruidenberg",
+        "clZip": 15951,
+        "clPhone": "574-362-6289",
+        "contactPerson": "Hasad L. House"
+    },
+    {
+        "clId": "512BBFBA",
+        "clFname": "Charles",
+        "clMinit": "Alec",
+        "clLName": "Murray",
+        "clStreet1": "P.O. Box 200|2430 Nec St.",
+        "clStreet2": "P.O. Box 384|8475 Auctor Rd.",
+        "clCity": "Mataró",
+        "clZip": 17768,
+        "clPhone": "538-744-9373",
+        "contactPerson": "Lillian Haynes"
+    },
+    {
+        "clId": "98E66AF0",
+        "clFname": "Todd",
+        "clMinit": "Clementine",
+        "clLName": "Lowery",
+        "clStreet1": "P.O. Box 493|4554 Id Rd.",
+        "clStreet2": "1832 At St.",
+        "clCity": "Roxburgh",
+        "clZip": 25646,
+        "clPhone": "909-706-7082",
+        "contactPerson": "Sawyer F. Keith"
+    },
+    {
+        "clId": "2B84ED7F",
+        "clFname": "Cheryl",
+        "clMinit": "Elmo",
+        "clLName": "Golden",
+        "clStreet1": "P.O. Box 814|8010 Ante Ave",
+        "clStreet2": "645-9912 Mattis Road",
+        "clCity": "Monte Patria",
+        "clZip": 27080,
+        "clPhone": "625-639-3938",
+        "contactPerson": "Chiquita Jimenez"
+    },
+    {
+        "clId": "A7C9A313",
+        "clFname": "Lucas",
+        "clMinit": "Wesley",
+        "clLName": "Houston",
+        "clStreet1": "5365 Natoque Street",
+        "clStreet2": "127-4199 Cras Road",
+        "clCity": "Grand Rapids",
+        "clZip": 27953,
+        "clPhone": "427-264-4336",
+        "contactPerson": "Uriah Hill"
+    },
+    {
+        "clId": "CE8DF959",
+        "clFname": "Robin",
+        "clMinit": "Kessie",
+        "clLName": "Gilliam",
+        "clStreet1": "Ap #468-7085 Curabitur St.",
+        "clStreet2": "3473 Erat St.",
+        "clCity": "Sennariolo",
+        "clZip": 31096,
+        "clPhone": "919-688-4923",
+        "contactPerson": "Nash S. Richardson"
+    },
+    {
+        "clId": "8981F371",
+        "clFname": "Aladdin",
+        "clMinit": "Cullen",
+        "clLName": "Sargent",
+        "clStreet1": "1500 Lectus. St.",
+        "clStreet2": "P.O. Box 692|6034 Mattis Rd.",
+        "clCity": "Palayankottai",
+        "clZip": 31374,
+        "clPhone": "927-484-7185",
+        "contactPerson": "Barrett Turner"
+    },
+    {
+        "clId": "D0260322",
+        "clFname": "Castor",
+        "clMinit": "Lynn",
+        "clLName": "Moreno",
+        "clStreet1": "P.O. Box 185|3908 Pharetra St.",
+        "clStreet2": "P.O. Box 737|4611 Nulla. St.",
+        "clCity": "Wolfurt",
+        "clZip": 31504,
+        "clPhone": "822-890-2967",
+        "contactPerson": "Orlando J. Franklin"
+    }
+]

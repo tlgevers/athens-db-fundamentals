@@ -29,7 +29,7 @@ def register_extensions(app):
 
 
 def register_blueprints(app):
-    from .api.endpoints import blueprint
+    from src.api.endpoints import blueprint
 
     app.register_blueprint(blueprint)
 

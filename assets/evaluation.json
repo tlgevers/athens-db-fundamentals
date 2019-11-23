@@ -1,0 +1,72 @@
+[
+    {
+        "jobNo": 46,
+        "evalDate": "2018-11-25",
+        "raterName": "Kerry U. Page",
+        "rating": 7,
+        "comment": "Stole- however showed great potential if stayed on straight and narrow"
+    },
+    {
+        "jobNo": 47,
+        "evalDate": "2018-12-16",
+        "raterName": "Berk H. Jackson",
+        "rating": 5,
+        "comment": "Created hostile work environgment"
+    },
+    {
+        "jobNo": 48,
+        "evalDate": "2018-11-01",
+        "raterName": "Ariana L. Cobb",
+        "rating": 6,
+        "comment": "Not suited for position - lied on resume?"
+    },
+    {
+        "jobNo": 49,
+        "evalDate": "2018-12-23",
+        "raterName": "Blaze U. Henderson",
+        "rating": 8,
+        "comment": null
+    },
+    {
+        "jobNo": 50,
+        "evalDate": "2018-11-24",
+        "raterName": "Erich Wheeler",
+        "rating": 3,
+        "comment": null
+    },
+    {
+        "jobNo": 51,
+        "evalDate": "2018-12-30",
+        "raterName": "Lucius Merritt",
+        "rating": 5,
+        "comment": null
+    },
+    {
+        "jobNo": 52,
+        "evalDate": "2018-12-01",
+        "raterName": "Aretha Kemp",
+        "rating": 2,
+        "comment": "Did not follow company policies"
+    },
+    {
+        "jobNo": 53,
+        "evalDate": "2018-11-30",
+        "raterName": "Cheryl Dennis",
+        "rating": 2,
+        "comment": "Seems to have issues with authority"
+    },
+    {
+        "jobNo": 62,
+        "evalDate": "2018-11-27",
+        "raterName": "Emmanuel Vazquez",
+        "rating": 9,
+        "comment": "Worked well and new position but could not make it to work on time."
+    },
+    {
+        "jobNo": 75,
+        "evalDate": "2018-12-17",
+        "raterName": "Tanya Burch",
+        "rating": 6,
+        "comment": null
+    }
+]

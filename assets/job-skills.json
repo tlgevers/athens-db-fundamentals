@@ -1,0 +1,52 @@
+[
+    {
+        "jobNo": 46,
+        "skillName": "Technical Writing",
+        "skillLevel": "Novice"
+    },
+    {
+        "jobNo": 47,
+        "skillName": "Programming",
+        "skillLevel": "Moderate"
+    },
+    {
+        "jobNo": 48,
+        "skillName": "Cyber Security",
+        "skillLevel": "Proficient"
+    },
+    {
+        "jobNo": 49,
+        "skillName": "Cyber Security",
+        "skillLevel": "Proficient"
+    },
+    {
+        "jobNo": 50,
+        "skillName": "Operating Systems",
+        "skillLevel": "Moderate"
+    },
+    {
+        "jobNo": 51,
+        "skillName": "Data Analysis",
+        "skillLevel": "Novice"
+    },
+    {
+        "jobNo": 52,
+        "skillName": "Programming",
+        "skillLevel": "Novice"
+    },
+    {
+        "jobNo": 53,
+        "skillName": "Software",
+        "skillLevel": "Moderate"
+    },
+    {
+        "jobNo": 62,
+        "skillName": "Project Management",
+        "skillLevel": "Proficient"
+    },
+    {
+        "jobNo": 75,
+        "skillName": "Cyber Security",
+        "skillLevel": "Proficient"
+    }
+]

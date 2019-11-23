@@ -1,0 +1,72 @@
+[
+    {
+        "wId": "B1EA672A",
+        "degree": "B.S.",
+        "field": "MIS",
+        "institution": "Rose-Hulman Institute of Technology",
+        "yearEarned": 1994
+    },
+    {
+        "wId": "37F4F59D",
+        "degree": "B.A.",
+        "field": "CS",
+        "institution": "University of Wisconsin",
+        "yearEarned": 1993
+    },
+    {
+        "wId": "58BCD7C3",
+        "degree": "B.S.",
+        "field": "CIS",
+        "institution": "New York Institute of Technology",
+        "yearEarned": 1995
+    },
+    {
+        "wId": "B6979BBE",
+        "degree": "B.A.",
+        "field": "ITE",
+        "institution": "University of Alabama",
+        "yearEarned": 2005
+    },
+    {
+        "wId": "87E8D390",
+        "degree": "Certificate",
+        "field": "EE",
+        "institution": "Herzing University",
+        "yearEarned": 1997
+    },
+    {
+        "wId": "03DD7FB6",
+        "degree": "A.S.",
+        "field": "CS",
+        "institution": "Georgia State University",
+        "yearEarned": 2013
+    },
+    {
+        "wId": "F3E19D5E",
+        "degree": "A.S.",
+        "field": "CIS",
+        "institution": "Texas Tech",
+        "yearEarned": 1999
+    },
+    {
+        "wId": "F3D4D51E",
+        "degree": "A.A.S.",
+        "field": "AE",
+        "institution": "North Dakota State University",
+        "yearEarned": 2009
+    },
+    {
+        "wId": "E4117DE9",
+        "degree": "A.A.S.",
+        "field": "ITE",
+        "institution": "Iowa University",
+        "yearEarned": 1988
+    },
+    {
+        "wId": "A492113E",
+        "degree": "B.S.",
+        "field": "EE",
+        "institution": "University of South Carolina",
+        "yearEarned": 1985
+    }
+]

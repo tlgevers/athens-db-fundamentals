@@ -1,0 +1,52 @@
+[
+    {
+        "wId": "B1EA672A",
+        "skillName": "Technical Writing",
+        "skillLevel": "Proficient"
+    },
+    {
+        "wId": "37F4F59D",
+        "skillName": "Programming",
+        "skillLevel": "Novice"
+    },
+    {
+        "wId": "58BCD7C3",
+        "skillName": "Cyber Security",
+        "skillLevel": "Proficient"
+    },
+    {
+        "wId": "B6979BBE",
+        "skillName": "Cyber Security",
+        "skillLevel": "Moderate"
+    },
+    {
+        "wId": "87E8D390",
+        "skillName": "Operating Systems",
+        "skillLevel": "Proficient"
+    },
+    {
+        "wId": "03DD7FB6",
+        "skillName": "Data Analysis",
+        "skillLevel": "Moderate"
+    },
+    {
+        "wId": "F3E19D5E",
+        "skillName": "Programming",
+        "skillLevel": "Proficient"
+    },
+    {
+        "wId": "F3D4D51E",
+        "skillName": "Software",
+        "skillLevel": "Novice"
+    },
+    {
+        "wId": "E4117DE9",
+        "skillName": "Project Management",
+        "skillLevel": "Moderate"
+    },
+    {
+        "wId": "A492113E",
+        "skillName": "Cyber Security",
+        "skillLevel": "Proficient"
+    }
+]
