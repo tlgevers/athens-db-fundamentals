@@ -1,12 +1,25 @@
 import React from 'react'
 import './EvaluationForm.css'
-import { Button, Form, FormInput, FormGroup } from 'shards-react'
+import axios from 'axios'
+import { Button, Form, FormInput, FormGroup, Modal, ModalBody, ModalHeader } from 'shards-react'
+import Loader from '../Loader/Loader'
+import Message from '../Message/Message'
 
 export const evalform = [
-    {id: "#workername", placeholder: "Worker Name"},
-    {id: "#ssn", placeholder: "SSN"},
+    { id: "#workername", placeholder: "Worker Name", type: "text" },
+    { id: "#ssn", placeholder: "SSN", type: "text" },
+    { id: "#jobtitle", placeholder: "Job Title", type: "text" },
+    { id: "#evaluationdate", placeholder: "Evaluation Date", type: "date" },
+    { id: "#ratername", placeholder: "Rater Name", type: "text" },
+    { id: "#rating", placeholder: "Rating", type: "number" },
+    { id: "#ratingcomment", placeholder: "Rating Comment", type: "text" },
 ]
 
+export const Aux = (props) => (
+    <div>
+        {props.children}
+    </div>
+);
 export default class Evalform extends React.Component {
     state = {
         form: {
@@ -17,78 +30,68 @@ export default class Evalform extends React.Component {
             ratername: "",
             rating: 0,
             ratingcomment: "",
-        }
+        },
+        loading: false,
+        message: false
     }
     setInput = (i) => {
         let value = i.target.value
         let index = i.target.id.replace("#", "")
         if (index === "rating") value = parseInt(value)
         this.setState({
-            form: {...this.state.form, [index]: value}
+            form: { ...this.state.form, [index]: value }
         })
     }
     submitForm = (f) => {
+        this.setState({ loading: true })
         let form = this.state.form
         console.log("evalform: ", form)
+        axios.post("/api/worker/evaluation", form)
+            .then(res => {
+                console.log(res)
+                setTimeout(() => {
+                    this.setState({ loading: false, message: true })
+                }, 3000);
+                // setTimeout(() => {
+                //     this.setState({message: false})
+                // }, 3000); 
+            })
     }
     render() {
         return (
-            <div className="EvalFormContainer">
-                <div className="EvalForm">
-                    <p>Evaluation Form</p>
-                    {
-                        <Form>
-                            {evalform.map(v => (
-                               <FormGroup key={v.id}>
-                                   <FormInput 
-                                        id={v.id} 
-                                        placeholder={v.placeholder}
-                                        onChange={this.setInput}
+            <Aux>
+                <Message open={this.state.message} message="Data was saved." />
+                <div className="EvalFormContainer">
+                    <div className="EvalForm">
+                        {/* <h3>Evaluation Form</h3> */}
+                        <br />
+                        {
+                            <Form>
+                                {evalform.map(v => (
+                                    <FormGroup key={v.id}>
+                                        <label htmlFor={v.id}>{v.placeholder}</label>
+                                        <br />
+                                        <FormInput
+                                            id={v.id}
+                                            placeholder={v.placeholder}
+                                            onChange={this.setInput}
+                                            type={v.type}
                                         />
-                               </FormGroup>
-                            ))}
-                        </Form>
-                    }
-                    <Form>
-                        <FormGroup>
-                            <label htmlFor="#workername">Worker Name</label>
-                            <br />
-                            <FormInput onChange={this.setInput} id="#workername" placeholder="Worker Name" />
-                        </FormGroup>
-                        <FormGroup>
-                            <label htmlFor="#ssn">SSN</label>
-                            <br />
-                            <FormInput id="#ssn" placeholder="Social Security Number" />
-                        </FormGroup>
-                        <FormGroup>
-                            <label htmlFor="#jobtitle">Job Title</label>
-                            <br />
-                            <FormInput id="#jobtitle" placeholder="Job Title" />
-                        </FormGroup>
-                        <FormGroup>
-                            <label htmlFor="#evaluationdate">Evaluation Date</label>
-                            <br />
-                            <FormInput id="#evaluationdate" placeholder="Evaluation Date" type="date" />
-                        </FormGroup>
-                        <FormGroup>
-                            <label htmlFor="#ratername">Rater Name</label>
-                            <br />
-                            <FormInput id="#ratername" placeholder="Rater Name" />
-                        </FormGroup>
-                        <FormGroup>
-                            <label htmlFor="#rating">Rating</label>
-                            <br />
-                            <FormInput onChange={this.setInput} id="#rating" placeholder="Rating" type="number" />
-                        </FormGroup>
-                        <FormGroup>
-                            <label htmlFor="#ratingcomment">Comment</label>
-                            <br />
-                            <FormInput id="#ratingcomment" placeholder="Rating Comment" />
-                        </FormGroup>
-                        <Button onClick={this.submitForm}>Submit</Button>
-                    </Form>
+                                    </FormGroup>
+                                ))}
+                            </Form>
+                        }
+                        <div className="submit">
+                            <Button onClick={this.submitForm}>Submit</Button>
+                            {this.state.loading ? <Loader /> : null}
+                        </div>
+                        {/* <Modal size="sm" open={this.state.message}>
+                        <ModalHeader>Header</ModalHeader>
+                        <ModalBody>👋 Hello there!</ModalBody>
+                    </Modal> */}
+                    </div>
                 </div>
-            </div>
+            </Aux>
         )
     }
 }

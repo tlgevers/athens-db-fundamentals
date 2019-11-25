@@ -1,4 +1,4 @@
-from flask import Blueprint, current_app, jsonify
+from flask import Blueprint, current_app, jsonify, request
 import json
 from src.mysql import db
 from sqlalchemy.sql import text
@@ -20,6 +20,13 @@ def department():
         results = conn.execute(statement)
         data = to_json(results)
         return jsonify(data)
+
+
+@blueprint.route(BASE+"/worker/evaluation", methods=["POST"])
+def worker_evaluation():
+    data = request.get_json()
+    current_app.logger.info(f"worker/evaluation/{data}")
+    return jsonify({"res": "worker_evaluation submitted"}), 200
 
 def to_json(data):
     result = []

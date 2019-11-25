@@ -13,3 +13,7 @@ label {
     width: 100vw;
     justify-content: center;
 }
+
+.submit {
+    display: inline-flex;
+}
