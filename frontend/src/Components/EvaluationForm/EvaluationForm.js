@@ -1,9 +1,8 @@
 import React from 'react'
 import './EvaluationForm.css'
 import axios from 'axios'
-import { Button, Form, FormInput, FormGroup, Modal, ModalBody, ModalHeader } from 'shards-react'
+import { Button, Form, FormInput, FormGroup } from 'shards-react'
 import Loader from '../Loader/Loader'
-import Message from '../Message/Message'
 
 export const evalform = [
     { id: "#workername", placeholder: "Worker Name", type: "text" },
@@ -51,6 +50,7 @@ export default class Evalform extends React.Component {
                 console.log(res)
                 setTimeout(() => {
                     this.setState({ loading: false, message: true })
+                    this.props.showNotification(JSON.stringify(res))
                 }, 3000);
                 // setTimeout(() => {
                 //     this.setState({message: false})
@@ -60,7 +60,6 @@ export default class Evalform extends React.Component {
     render() {
         return (
             <Aux>
-                <Message open={this.state.message} message="Data was saved." />
                 <div className="EvalFormContainer">
                     <div className="EvalForm">
                         {/* <h3>Evaluation Form</h3> */}
