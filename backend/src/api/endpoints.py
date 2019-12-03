@@ -26,6 +26,23 @@ def department():
 def worker_evaluation():
     data = request.get_json()
     current_app.logger.info(f"worker/evaluation/{data}")
+    workername = data.get("workername")
+    ssn = data.get("ssn")
+    jobtitle = data.get("jobtitle")
+    evaluationdate = data.get("evaluationdate")
+    ratername = data.get("ratername")
+    rating = data.get("rating")
+    ratingcomment = data.get("ratingcomment")
+
+    with db.engine.connect() as conn:
+        statement = text(
+            "INSERT INTO EvaluationProject "
+            f"values ('{workername}', '{ssn}', '{jobtitle}', '{evaluationdate}', '{ratername}', '{rating}', '{ratingcomment}');"
+        )
+        try:
+            results = conn.execute(statement)
+        except Exception as e:
+            current_app.logger.error(f"An error occurred: {e}")
     return jsonify({"res": "worker_evaluation submitted"}), 200
 
 def to_json(data):
