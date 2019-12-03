@@ -3,11 +3,11 @@
 To run the application
 install docker
 and run, within the root directory.
-docker-compose up
+* docker-compose up
 
 if the be(backend) service is unable to connect the db(database) run the following command:
 Docker appropriates volumes which may cause issues when storing data between volumes
-docker-compose rm -v
+* docker-compose rm -v
 when prompted select y for yes
 
 # These are the following services that will be created and linked as needed:
