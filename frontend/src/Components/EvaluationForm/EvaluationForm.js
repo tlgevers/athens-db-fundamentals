@@ -52,9 +52,6 @@ export default class Evalform extends React.Component {
                     this.setState({ loading: false, message: true })
                     this.props.showNotification(JSON.stringify(res))
                 }, 3000);
-                // setTimeout(() => {
-                //     this.setState({message: false})
-                // }, 3000); 
             })
     }
     render() {
@@ -62,7 +59,6 @@ export default class Evalform extends React.Component {
             <Aux>
                 <div className="EvalFormContainer">
                     <div className="EvalForm">
-                        {/* <h3>Evaluation Form</h3> */}
                         <br />
                         {
                             <Form>
@@ -84,10 +80,6 @@ export default class Evalform extends React.Component {
                             <Button onClick={this.submitForm}>Submit</Button>
                             {this.state.loading ? <Loader /> : null}
                         </div>
-                        {/* <Modal size="sm" open={this.state.message}>
-                        <ModalHeader>Header</ModalHeader>
-                        <ModalBody>👋 Hello there!</ModalBody>
-                    </Modal> */}
                     </div>
                 </div>
             </Aux>
